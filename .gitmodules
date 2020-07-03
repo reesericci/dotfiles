@@ -1,0 +1,6 @@
+[submodule "awesome"]
+	path = awesome
+	url = /home/archreese/.config/awesome/
+[submodule ".doom.d"]
+	path = .doom.d
+	url = ./.doom.d/

@@ -1,0 +1,57 @@
+{
+  "_from": "https://www.atom.io/api/packages/atom-material-syntax-light/versions/0.4.6/tarball",
+  "_id": "atom-material-syntax-light@0.4.6",
+  "_inBundle": false,
+  "_integrity": "sha512-lO592TKeR9TiNUW5WYYlNjosu4oqLB/zjEbJmMT6l3z0K+JJNL7Tk7ZaeH2+X2tfdKUVKu0t6a5SqUAJW/ZNfw==",
+  "_location": "/atom-material-syntax-light",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/atom-material-syntax-light/versions/0.4.6/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-material-syntax-light/versions/0.4.6/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-material-syntax-light/versions/0.4.6/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-material-syntax-light/versions/0.4.6/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/atom-material-syntax-light/versions/0.4.6/tarball",
+  "_shasum": "6d5748987d45b664e033e1967083fb53eb725d93",
+  "_spec": "https://www.atom.io/api/packages/atom-material-syntax-light/versions/0.4.6/tarball",
+  "_where": "/tmp/apm-install-dir-2020415-315028-dipzs1.wzxcf",
+  "bugs": {
+    "url": "https://github.com/silvestreh/atom-material-syntax-light/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A light syntax theme for Atom that uses Google's Material Design color palette",
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  },
+  "homepage": "https://github.com/silvestreh/atom-material-syntax-light#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "material design",
+    "material"
+  ],
+  "license": "MIT",
+  "name": "atom-material-syntax-light",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silvestreh/atom-material-syntax-light.git"
+  },
+  "theme": "syntax",
+  "version": "0.4.6",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

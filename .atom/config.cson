@@ -1,0 +1,20 @@
+"*":
+  "atom-material-ui":
+    colors:
+      abaseColor: "#07a092"
+    ui:
+      panelContrast: true
+  core:
+    telemetryConsent: "limited"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+  editor:
+    fontSize: 17
+  "exception-reporting":
+    userId: "6170dee3-38ca-4e15-ba6e-71e3e542cdb4"
+  "markdown-preview":
+    useGitHubStyle: true
+  welcome:
+    showOnStartup: false

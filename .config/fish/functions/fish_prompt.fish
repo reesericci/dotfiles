@@ -1,0 +1,1 @@
+/home/archreese/.config/omf/themes/bobbythefish/fish_prompt.fish

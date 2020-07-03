@@ -1,0 +1,6 @@
+2020/06/26-07:15:50.116 c3d32 Reusing MANIFEST leveldb/MANIFEST-000001
+2020/06/26-07:15:50.117 c3d32 Recovering log #25
+2020/06/26-07:15:50.117 c3d32 Reusing old log leveldb/000025.log 
+2020/06/26-07:17:11.661 c3d32 Level-0 table #29: started
+2020/06/26-07:17:11.668 c3d32 Level-0 table #29: 101449 bytes OK
+2020/06/26-07:17:11.672 c3d32 Delete type=0 #25

@@ -1,0 +1,555 @@
+{
+  "_from": "https://www.atom.io/api/packages/teletype/versions/0.13.4/tarball",
+  "_id": "teletype@0.13.4",
+  "_inBundle": false,
+  "_integrity": "sha512-31Jnc1Sxd7dwRtj65Iwd1krA64KKait6UkjyrTUaAJQi2lZCkif6+kd8Vg15Wy2W3tB04fwciq2xvHaJwDL8AA==",
+  "_location": "/teletype",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/teletype/versions/0.13.4/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/teletype/versions/0.13.4/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/teletype/versions/0.13.4/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/teletype/versions/0.13.4/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/teletype/versions/0.13.4/tarball",
+  "_shasum": "2d953dac0524af4edf43d89a1388d1dc8b3c5828",
+  "_spec": "https://www.atom.io/api/packages/teletype/versions/0.13.4/tarball",
+  "_where": "/tmp/apm-install-dir-2020526-802906-dpzf0b.n6n8",
+  "atomTestRunner": "./test/setup",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/atom/teletype/issues"
+  },
+  "bundleDependencies": false,
+  "configSchema": {
+    "askBeforeJoiningPortalViaExternalApp": {
+      "title": "Ask before joining a portal via an external application",
+      "description": "When set, you will be asked for confirmation every time you follow a portal URL in a third-party application.",
+      "type": "boolean",
+      "default": true,
+      "order": 1
+    },
+    "dev": {
+      "title": "Development Settings",
+      "collapsed": true,
+      "type": "object",
+      "order": 2,
+      "properties": {
+        "baseURL": {
+          "title": "API server base URL",
+          "description": "This should only be changed for development purposes. Changes take effect on the next package activation.",
+          "type": "string",
+          "default": "https://api.teletype.atom.io",
+          "order": 1
+        },
+        "pusherKey": {
+          "title": "Pusher service key",
+          "description": "This should only be changed for development purposes. Changes take effect on the next package activation.",
+          "type": "string",
+          "default": "f119821248b7429bece3",
+          "order": 2
+        },
+        "pusherCluster": {
+          "title": "Pusher cluster name",
+          "description": "This should only be changed for development purposes. Changes take effect on the next package activation.",
+          "type": "string",
+          "default": "mt1",
+          "order": 3
+        }
+      }
+    }
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "dependencies": {
+    "@atom/teletype-client": "^0.38.4",
+    "etch": "^0.12.6"
+  },
+  "deprecated": false,
+  "description": "Share your workspace with team members and collaborate on code in real time",
+  "devDependencies": {
+    "@atom/teletype-server": "^0.18.2",
+    "atom-mocha-test-runner": "^1.0.1",
+    "deep-equal": "^1.0.1",
+    "standard": "^10.0.3",
+    "temp": "^0.8.3"
+  },
+  "engines": {
+    "atom": ">=1.25.0"
+  },
+  "homepage": "https://github.com/atom/teletype#readme",
+  "keywords": [
+    "collaboration",
+    "collaborative-editing",
+    "pair-programming",
+    "real-time"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "teletype",
+  "providedServices": {
+    "teletype": {
+      "description": "A set of APIs for packages to integrate with Teletype",
+      "versions": {
+        "0.0.1": "provideTeletype"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom/teletype.git"
+  },
+  "scripts": {
+    "lint": "standard --verbose",
+    "test": "atom --test test"
+  },
+  "standard": {
+    "env": {
+      "mocha": true
+    },
+    "globals": [
+      "atom",
+      "ErrorEvent"
+    ],
+    "ignore": [
+      "test/fixtures"
+    ]
+  },
+  "uriHandler": {
+    "method": "handleURI",
+    "deferActivation": false
+  },
+  "version": "0.13.4",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "etch",
+        "version": "0.12.8",
+        "path": "node_modules/etch/lib/index.js"
+      },
+      {
+        "name": "event-kit",
+        "version": "2.5.3",
+        "path": "node_modules/event-kit/dist/event-kit.js"
+      },
+      {
+        "name": "faye-websocket",
+        "version": "0.9.4",
+        "path": "node_modules/faye-websocket/lib/faye/websocket.js"
+      },
+      {
+        "name": "google-protobuf",
+        "version": "3.12.2",
+        "path": "node_modules/google-protobuf/google-protobuf.js"
+      },
+      {
+        "name": "http-parser-js",
+        "version": "0.5.2",
+        "path": "node_modules/http-parser-js/http-parser.js"
+      },
+      {
+        "name": "pusher-js",
+        "version": "4.4.0",
+        "path": "node_modules/pusher-js/dist/node/pusher.js"
+      },
+      {
+        "name": "rtcpeerconnection-shim",
+        "version": "1.2.15",
+        "path": "node_modules/rtcpeerconnection-shim/rtcpeerconnection.js"
+      },
+      {
+        "name": "safe-buffer",
+        "version": "5.2.1",
+        "path": "node_modules/safe-buffer/index.js"
+      },
+      {
+        "name": "sdp",
+        "version": "2.12.0",
+        "path": "node_modules/sdp/sdp.js"
+      },
+      {
+        "name": "tweetnacl",
+        "version": "1.0.3",
+        "path": "node_modules/tweetnacl/nacl-fast.js"
+      },
+      {
+        "name": "tweetnacl-util",
+        "version": "0.15.1",
+        "path": "node_modules/tweetnacl-util/nacl-util.js"
+      },
+      {
+        "name": "uuid",
+        "version": "3.4.0",
+        "path": "node_modules/uuid/index.js"
+      },
+      {
+        "name": "webrtc-adapter",
+        "version": "6.1.5",
+        "path": "node_modules/webrtc-adapter/src/js/adapter_core.js"
+      },
+      {
+        "name": "websocket-driver",
+        "version": "0.7.4",
+        "path": "node_modules/websocket-driver/lib/websocket/driver.js"
+      },
+      {
+        "name": "websocket-extensions",
+        "version": "0.1.4",
+        "path": "node_modules/websocket-extensions/lib/websocket_extensions.js"
+      },
+      {
+        "name": "xmlhttprequest",
+        "version": "1.8.0",
+        "path": "node_modules/xmlhttprequest/lib/XMLHttpRequest.js"
+      }
+    ],
+    "extensions": {
+      ".js": [
+        "index.js",
+        "lib/authentication-provider.js",
+        "lib/buffer-binding.js",
+        "lib/credential-cache.js",
+        "lib/editor-binding.js",
+        "lib/get-avatar-url.js",
+        "lib/get-path-with-native-separators.js",
+        "lib/guest-portal-binding-component.js",
+        "lib/guest-portal-binding.js",
+        "lib/host-portal-binding-component.js",
+        "lib/host-portal-binding.js",
+        "lib/join-portal-component.js",
+        "lib/join-via-external-app-dialog.js",
+        "lib/package-initialization-error-component.js",
+        "lib/package-outdated-component.js",
+        "lib/participants-component.js",
+        "lib/popover-component.js",
+        "lib/portal-binding-manager.js",
+        "lib/portal-id-helpers.js",
+        "lib/portal-list-component.js",
+        "lib/portal-status-bar-indicator.js",
+        "lib/sign-in-component.js",
+        "lib/site-positions-component.js",
+        "lib/teletype-package.js",
+        "lib/teletype-service.js",
+        "lib/uri-helpers.js",
+        "node_modules/@atom/teletype-client/index.js",
+        "node_modules/@atom/teletype-client/lib/buffer-proxy.js",
+        "node_modules/@atom/teletype-client/lib/convert-to-protobuf-compatible-buffer.js",
+        "node_modules/@atom/teletype-client/lib/editor-proxy-metadata.js",
+        "node_modules/@atom/teletype-client/lib/editor-proxy.js",
+        "node_modules/@atom/teletype-client/lib/errors.js",
+        "node_modules/@atom/teletype-client/lib/follow-state.js",
+        "node_modules/@atom/teletype-client/lib/null-editor-proxy-delegate.js",
+        "node_modules/@atom/teletype-client/lib/null-portal-delegate.js",
+        "node_modules/@atom/teletype-client/lib/peer-connection.js",
+        "node_modules/@atom/teletype-client/lib/peer-pool.js",
+        "node_modules/@atom/teletype-client/lib/portal.js",
+        "node_modules/@atom/teletype-client/lib/pub-sub-signaling-provider.js",
+        "node_modules/@atom/teletype-client/lib/pusher-pub-sub-gateway.js",
+        "node_modules/@atom/teletype-client/lib/rest-gateway.js",
+        "node_modules/@atom/teletype-client/lib/router.js",
+        "node_modules/@atom/teletype-client/lib/star-overlay-network.js",
+        "node_modules/@atom/teletype-client/lib/teletype-client.js",
+        "node_modules/@atom/teletype-client/lib/teletype-client_pb.js",
+        "node_modules/@atom/teletype-client/lib/teletype-crdt_pb.js",
+        "node_modules/@atom/teletype-crdt/index.js",
+        "node_modules/@atom/teletype-crdt/lib/document-tree.js",
+        "node_modules/@atom/teletype-crdt/lib/document.js",
+        "node_modules/@atom/teletype-crdt/lib/point-helpers.js",
+        "node_modules/@atom/teletype-crdt/lib/serialization.js",
+        "node_modules/@atom/teletype-crdt/lib/splay-tree.js",
+        "node_modules/@atom/teletype-crdt/lib/split-tree.js",
+        "node_modules/@atom/teletype-crdt/lib/teletype-crdt_pb.js",
+        "node_modules/@atom/teletype-crdt/script/electron-test-runner/main.js",
+        "node_modules/@atom/teletype-crdt/script/electron-test-runner/renderer.js",
+        "node_modules/etch/dist/component-helpers.js",
+        "node_modules/etch/dist/default-scheduler.js",
+        "node_modules/etch/dist/dom.js",
+        "node_modules/etch/dist/event-listener-props.js",
+        "node_modules/etch/dist/index.js",
+        "node_modules/etch/dist/patch.js",
+        "node_modules/etch/dist/render.js",
+        "node_modules/etch/dist/scheduler-assignment.js",
+        "node_modules/etch/dist/svg-attribute-translations.js",
+        "node_modules/etch/dist/svg-tags.js",
+        "node_modules/etch/dist/update-props.js",
+        "node_modules/etch/lib/component-helpers.js",
+        "node_modules/etch/lib/default-scheduler.js",
+        "node_modules/etch/lib/dom.js",
+        "node_modules/etch/lib/event-listener-props.js",
+        "node_modules/etch/lib/index.js",
+        "node_modules/etch/lib/patch.js",
+        "node_modules/etch/lib/render.js",
+        "node_modules/etch/lib/scheduler-assignment.js",
+        "node_modules/etch/lib/svg-attribute-translations.js",
+        "node_modules/etch/lib/svg-tags.js",
+        "node_modules/etch/lib/update-props.js",
+        "node_modules/event-kit/dist/composite-disposable.js",
+        "node_modules/event-kit/dist/disposable.js",
+        "node_modules/event-kit/dist/emitter.js",
+        "node_modules/event-kit/dist/event-kit.js",
+        "node_modules/faye-websocket/examples/autobahn_client.js",
+        "node_modules/faye-websocket/examples/client.js",
+        "node_modules/faye-websocket/examples/proxy_server.js",
+        "node_modules/faye-websocket/examples/server.js",
+        "node_modules/faye-websocket/lib/faye/eventsource.js",
+        "node_modules/faye-websocket/lib/faye/websocket/api/event.js",
+        "node_modules/faye-websocket/lib/faye/websocket/api/event_target.js",
+        "node_modules/faye-websocket/lib/faye/websocket/api.js",
+        "node_modules/faye-websocket/lib/faye/websocket/client.js",
+        "node_modules/faye-websocket/lib/faye/websocket.js",
+        "node_modules/google-protobuf/google/protobuf/any_pb.js",
+        "node_modules/google-protobuf/google/protobuf/api_pb.js",
+        "node_modules/google-protobuf/google/protobuf/compiler/plugin_pb.js",
+        "node_modules/google-protobuf/google/protobuf/descriptor_pb.js",
+        "node_modules/google-protobuf/google/protobuf/duration_pb.js",
+        "node_modules/google-protobuf/google/protobuf/empty_pb.js",
+        "node_modules/google-protobuf/google/protobuf/field_mask_pb.js",
+        "node_modules/google-protobuf/google/protobuf/source_context_pb.js",
+        "node_modules/google-protobuf/google/protobuf/struct_pb.js",
+        "node_modules/google-protobuf/google/protobuf/timestamp_pb.js",
+        "node_modules/google-protobuf/google/protobuf/type_pb.js",
+        "node_modules/google-protobuf/google/protobuf/wrappers_pb.js",
+        "node_modules/google-protobuf/google-protobuf.js",
+        "node_modules/http-parser-js/http-parser.js",
+        "node_modules/pusher-js/dist/node/pusher.js",
+        "node_modules/pusher-js/dist/react-native/pusher.js",
+        "node_modules/pusher-js/dist/web/json2.js",
+        "node_modules/pusher-js/dist/web/json2.min.js",
+        "node_modules/pusher-js/dist/web/pusher.js",
+        "node_modules/pusher-js/dist/web/pusher.min.js",
+        "node_modules/pusher-js/dist/web/sockjs.js",
+        "node_modules/pusher-js/dist/web/sockjs.min.js",
+        "node_modules/pusher-js/dist/worker/pusher.worker.js",
+        "node_modules/pusher-js/dist/worker/pusher.worker.min.js",
+        "node_modules/pusher-js/node.js",
+        "node_modules/pusher-js/react-native.js",
+        "node_modules/pusher-js/src/core/pusher-licence.js",
+        "node_modules/pusher-js/src/runtimes/web/dom/json2.js",
+        "node_modules/pusher-js/webpack/config.min.js",
+        "node_modules/pusher-js/webpack/config.node.js",
+        "node_modules/pusher-js/webpack/config.react-native.js",
+        "node_modules/pusher-js/webpack/config.shared.js",
+        "node_modules/pusher-js/webpack/config.web.js",
+        "node_modules/pusher-js/webpack/config.worker.js",
+        "node_modules/pusher-js/webpack/dev.server.js",
+        "node_modules/pusher-js/webpack/hosting_config.js",
+        "node_modules/rtcpeerconnection-shim/karma.conf.js",
+        "node_modules/rtcpeerconnection-shim/rtcpeerconnection.js",
+        "node_modules/safe-buffer/index.js",
+        "node_modules/sdp/sdp.js",
+        "node_modules/tweetnacl/nacl-fast.js",
+        "node_modules/tweetnacl/nacl-fast.min.js",
+        "node_modules/tweetnacl/nacl.js",
+        "node_modules/tweetnacl/nacl.min.js",
+        "node_modules/tweetnacl-util/nacl-util.js",
+        "node_modules/tweetnacl-util/nacl-util.min.js",
+        "node_modules/uuid/index.js",
+        "node_modules/uuid/lib/bytesToUuid.js",
+        "node_modules/uuid/lib/md5-browser.js",
+        "node_modules/uuid/lib/md5.js",
+        "node_modules/uuid/lib/rng-browser.js",
+        "node_modules/uuid/lib/rng.js",
+        "node_modules/uuid/lib/sha1-browser.js",
+        "node_modules/uuid/lib/sha1.js",
+        "node_modules/uuid/lib/v35.js",
+        "node_modules/uuid/v1.js",
+        "node_modules/uuid/v3.js",
+        "node_modules/uuid/v4.js",
+        "node_modules/uuid/v5.js",
+        "node_modules/webrtc-adapter/Gruntfile.js",
+        "node_modules/webrtc-adapter/out/adapter.js",
+        "node_modules/webrtc-adapter/out/adapter_no_edge.js",
+        "node_modules/webrtc-adapter/out/adapter_no_edge_no_global.js",
+        "node_modules/webrtc-adapter/out/adapter_no_global.js",
+        "node_modules/webrtc-adapter/src/js/adapter_core.js",
+        "node_modules/webrtc-adapter/src/js/adapter_factory.js",
+        "node_modules/webrtc-adapter/src/js/chrome/chrome_shim.js",
+        "node_modules/webrtc-adapter/src/js/chrome/getusermedia.js",
+        "node_modules/webrtc-adapter/src/js/common_shim.js",
+        "node_modules/webrtc-adapter/src/js/edge/edge_shim.js",
+        "node_modules/webrtc-adapter/src/js/edge/getusermedia.js",
+        "node_modules/webrtc-adapter/src/js/firefox/firefox_shim.js",
+        "node_modules/webrtc-adapter/src/js/firefox/getusermedia.js",
+        "node_modules/webrtc-adapter/src/js/safari/safari_shim.js",
+        "node_modules/webrtc-adapter/src/js/utils.js",
+        "node_modules/websocket-driver/lib/websocket/driver/base.js",
+        "node_modules/websocket-driver/lib/websocket/driver/client.js",
+        "node_modules/websocket-driver/lib/websocket/driver/draft75.js",
+        "node_modules/websocket-driver/lib/websocket/driver/draft76.js",
+        "node_modules/websocket-driver/lib/websocket/driver/headers.js",
+        "node_modules/websocket-driver/lib/websocket/driver/hybi/frame.js",
+        "node_modules/websocket-driver/lib/websocket/driver/hybi/message.js",
+        "node_modules/websocket-driver/lib/websocket/driver/hybi.js",
+        "node_modules/websocket-driver/lib/websocket/driver/proxy.js",
+        "node_modules/websocket-driver/lib/websocket/driver/server.js",
+        "node_modules/websocket-driver/lib/websocket/driver/stream_reader.js",
+        "node_modules/websocket-driver/lib/websocket/driver.js",
+        "node_modules/websocket-driver/lib/websocket/http_parser.js",
+        "node_modules/websocket-driver/lib/websocket/streams.js",
+        "node_modules/websocket-extensions/lib/parser.js",
+        "node_modules/websocket-extensions/lib/pipeline/cell.js",
+        "node_modules/websocket-extensions/lib/pipeline/functor.js",
+        "node_modules/websocket-extensions/lib/pipeline/index.js",
+        "node_modules/websocket-extensions/lib/pipeline/pledge.js",
+        "node_modules/websocket-extensions/lib/pipeline/ring_buffer.js",
+        "node_modules/websocket-extensions/lib/websocket_extensions.js",
+        "node_modules/xmlhttprequest/lib/XMLHttpRequest.js"
+      ],
+      ".json": [
+        "node_modules/@atom/teletype-client/package.json",
+        "node_modules/@atom/teletype-crdt/package.json",
+        "node_modules/@atom/teletype-crdt/script/electron-test-runner/package.json",
+        "node_modules/etch/package.json",
+        "node_modules/event-kit/api.json",
+        "node_modules/event-kit/package.json",
+        "node_modules/faye-websocket/package.json",
+        "node_modules/google-protobuf/package.json",
+        "node_modules/http-parser-js/package.json",
+        "node_modules/pusher-js/bower.json",
+        "node_modules/pusher-js/package.json",
+        "node_modules/pusher-js/tsconfig.json",
+        "node_modules/rtcpeerconnection-shim/package.json",
+        "node_modules/safe-buffer/package.json",
+        "node_modules/sdp/.nyc_output/987304f6-c747-496b-a588-c3a3acec9b3c.json",
+        "node_modules/sdp/.nyc_output/d2946562-4d8d-4611-a0c2-7de213f7152d.json",
+        "node_modules/sdp/.nyc_output/processinfo/987304f6-c747-496b-a588-c3a3acec9b3c.json",
+        "node_modules/sdp/.nyc_output/processinfo/d2946562-4d8d-4611-a0c2-7de213f7152d.json",
+        "node_modules/sdp/.nyc_output/processinfo/index.json",
+        "node_modules/sdp/package.json",
+        "node_modules/tweetnacl/package.json",
+        "node_modules/tweetnacl-util/package.json",
+        "node_modules/uuid/package.json",
+        "node_modules/webrtc-adapter/bower.json",
+        "node_modules/webrtc-adapter/package.json",
+        "node_modules/websocket-driver/package.json",
+        "node_modules/websocket-extensions/package.json",
+        "node_modules/xmlhttprequest/package.json",
+        "package-lock.json",
+        "package.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "",
+          "lib",
+          "menus",
+          "test",
+          "test/fixtures",
+          "test/helpers"
+        ],
+        "dependencies": {
+          "@atom/teletype-client": "^0.38.4",
+          "etch": "^0.12.6"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/faye-websocket/examples",
+          "node_modules/faye-websocket/lib/faye",
+          "node_modules/faye-websocket/lib/faye/websocket/api",
+          "node_modules/faye-websocket/lib/faye/websocket",
+          "node_modules/faye-websocket"
+        ],
+        "dependencies": {
+          "websocket-driver": ">=0.5.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/pusher-js",
+          "node_modules/pusher-js/dist/node",
+          "node_modules/pusher-js/dist/react-native",
+          "node_modules/pusher-js/dist/web",
+          "node_modules/pusher-js/dist/worker",
+          "node_modules/pusher-js/spec/config/jasmine-node",
+          "node_modules/pusher-js/spec/config/karma",
+          "node_modules/pusher-js/spec/javascripts/helpers",
+          "node_modules/pusher-js/spec/javascripts/helpers/node",
+          "node_modules/pusher-js/spec/javascripts/helpers/web",
+          "node_modules/pusher-js/spec/javascripts/integration/core",
+          "node_modules/pusher-js/spec/javascripts/integration",
+          "node_modules/pusher-js/spec/javascripts/integration/web/dom",
+          "node_modules/pusher-js/spec/javascripts/polyfills",
+          "node_modules/pusher-js/spec/javascripts/unit/core/channels",
+          "node_modules/pusher-js/spec/javascripts/unit/core/connection",
+          "node_modules/pusher-js/spec/javascripts/unit/core",
+          "node_modules/pusher-js/spec/javascripts/unit/core/http",
+          "node_modules/pusher-js/spec/javascripts/unit/core/strategies",
+          "node_modules/pusher-js/spec/javascripts/unit/core/timeline",
+          "node_modules/pusher-js/spec/javascripts/unit/core/transports",
+          "node_modules/pusher-js/spec/javascripts/unit/core/utils",
+          "node_modules/pusher-js/spec/javascripts/unit",
+          "node_modules/pusher-js/spec/javascripts/unit/isomorphic/transports",
+          "node_modules/pusher-js/spec/javascripts/unit/node",
+          "node_modules/pusher-js/spec/javascripts/unit/web/dom",
+          "node_modules/pusher-js/spec/javascripts/unit/web/http",
+          "node_modules/pusher-js/spec/javascripts/unit/web",
+          "node_modules/pusher-js/spec/javascripts/unit/web/timeline",
+          "node_modules/pusher-js/spec/javascripts/unit/web/transports",
+          "node_modules/pusher-js/spec/javascripts/unit/worker",
+          "node_modules/pusher-js/src/core",
+          "node_modules/pusher-js/src/runtimes/web/dom",
+          "node_modules/pusher-js/webpack"
+        ],
+        "dependencies": {
+          "faye-websocket": "0.9.4",
+          "tweetnacl": "^1.0.0",
+          "tweetnacl-util": "^0.15.0",
+          "xmlhttprequest": "^1.8.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/rtcpeerconnection-shim",
+          "node_modules/rtcpeerconnection-shim/test"
+        ],
+        "dependencies": {
+          "sdp": "^2.6.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/webrtc-adapter",
+          "node_modules/webrtc-adapter/out",
+          "node_modules/webrtc-adapter/src/js",
+          "node_modules/webrtc-adapter/src/js/chrome",
+          "node_modules/webrtc-adapter/src/js/edge",
+          "node_modules/webrtc-adapter/src/js/firefox",
+          "node_modules/webrtc-adapter/src/js/safari",
+          "node_modules/webrtc-adapter/test/e2e",
+          "node_modules/webrtc-adapter/test",
+          "node_modules/webrtc-adapter/test/unit"
+        ],
+        "dependencies": {
+          "rtcpeerconnection-shim": "^1.2.10",
+          "sdp": "^2.7.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/websocket-driver/lib/websocket/driver",
+          "node_modules/websocket-driver/lib/websocket/driver/hybi",
+          "node_modules/websocket-driver/lib/websocket",
+          "node_modules/websocket-driver"
+        ],
+        "dependencies": {
+          "http-parser-js": ">=0.5.1",
+          "safe-buffer": ">=5.1.0",
+          "websocket-extensions": ">=0.1.1"
+        }
+      }
+    ]
+  }
+}

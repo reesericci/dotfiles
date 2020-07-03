@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/sys/class/net/macvtap0'
+let g:netrw_dirhist_5='/sys/class/net/wlo1'
+let g:netrw_dirhist_4='/etc/cron.weekly'
+let g:netrw_dirhist_3='/'
+let g:netrw_dirhist_2='/etc'
+let g:netrw_dirhist_1='/etc/cron.weekly'

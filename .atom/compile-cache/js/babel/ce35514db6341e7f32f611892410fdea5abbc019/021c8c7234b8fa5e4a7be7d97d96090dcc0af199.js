@@ -1,0 +1,14 @@
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+var _libNameThatColorView = require('../lib/name-that-color-view');
+
+var _libNameThatColorView2 = _interopRequireDefault(_libNameThatColorView);
+
+'use babel';
+
+describe('NameThatColorView', function () {
+  it('has one valid test', function () {
+    expect('life').toBe('easy');
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2FyY2hyZWVzZS8uYXRvbS9wYWNrYWdlcy9hdG9tLW5hbWUtdGhhdC1jb2xvci9zcGVjL25hbWUtdGhhdC1jb2xvci12aWV3LXNwZWMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7b0NBRThCLDZCQUE2Qjs7OztBQUYzRCxXQUFXLENBQUM7O0FBSVosUUFBUSxDQUFDLG1CQUFtQixFQUFFLFlBQU07QUFDbEMsSUFBRSxDQUFDLG9CQUFvQixFQUFFLFlBQU07QUFDN0IsVUFBTSxDQUFDLE1BQU0sQ0FBQyxDQUFDLElBQUksQ0FBQyxNQUFNLENBQUMsQ0FBQztHQUM3QixDQUFDLENBQUM7Q0FDSixDQUFDLENBQUMiLCJmaWxlIjoiL2hvbWUvYXJjaHJlZXNlLy5hdG9tL3BhY2thZ2VzL2F0b20tbmFtZS10aGF0LWNvbG9yL3NwZWMvbmFtZS10aGF0LWNvbG9yLXZpZXctc3BlYy5qcyIsInNvdXJjZXNDb250ZW50IjpbIid1c2UgYmFiZWwnO1xuXG5pbXBvcnQgTmFtZVRoYXRDb2xvclZpZXcgZnJvbSAnLi4vbGliL25hbWUtdGhhdC1jb2xvci12aWV3JztcblxuZGVzY3JpYmUoJ05hbWVUaGF0Q29sb3JWaWV3JywgKCkgPT4ge1xuICBpdCgnaGFzIG9uZSB2YWxpZCB0ZXN0JywgKCkgPT4ge1xuICAgIGV4cGVjdCgnbGlmZScpLnRvQmUoJ2Vhc3knKTtcbiAgfSk7XG59KTtcbiJdfQ==
