@@ -1,4 +1,6 @@
-[submodule "awesome/"]
-	url = https://github.com/reesericci/material-awesome
-[submodule ".doom.d/"]
+[submodule ".doom.d"]
+	path = .doom.d
 	url = https://github.com/reesericci/doom-config
+[submodule ".config/awesome"]
+	path = .config/awesome
+	url = https://github.com/reesericci/material-awesome
