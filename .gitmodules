@@ -1,9 +1,3 @@
-[submodule "awesome"]
-	path = awesome
-	url = /home/archreese/.config/awesome/
-[submodule ".doom.d"]
-	path = .doom.d
-	url = ./.doom.d/
 [submodule "awesome/"]
 	url = https://github.com/reesericci/material-awesome
 [submodule ".doom.d/"]
