@@ -4,3 +4,6 @@
 [submodule ".config/awesome"]
 	path = .config/awesome
 	url = https://github.com/reesericci/material-awesome
+[submodule ".config/.config/omf/themes/bobbythefish"]
+	path = .config/.config/omf/themes/bobbythefish
+	url = https://github.com/reesericci/bobbythefish
