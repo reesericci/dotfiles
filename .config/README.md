@@ -1,6 +1,6 @@
 # File tree explanation
 
-- /Atom/ - my text editor
+- /Atom/ - Atom text editor
 - /BetterDiscord/ - Customizing my discord with BandagedBD!
 - /aether-bg/ - my login screen
 - /awesome/ - Submodule to my material-awesome desktop config
