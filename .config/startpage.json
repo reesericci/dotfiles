@@ -1,0 +1,129 @@
+{
+  "disable24Hour": true,
+  "disableDate": false,
+  "disableMessage": false,
+  "disableSearchBar": false,
+  "disableWeather": false,
+  "searchEngine": "DuckDuckGo",
+  "squares": [
+    {
+      "color": "#77dd77",
+      "links": [
+        {
+          "name": "Youtube",
+          "url": "https://youtube.com/"
+        },
+        {
+          "name": "Reddit",
+          "url": "https://reddit.com"
+        },
+        {
+          "name": "LBRY",
+          "url": "https://lbry.tv"
+        },
+        {
+          "name": "Arch Wiki",
+          "url": "https://wiki.archlinux.org"
+        },
+        {
+          "name": "Messages",
+          "url": "https://messages.google.com/web/conversations"
+        },
+        {
+          "name": "UniFi",
+          "url": "https://192.168.1.1:8443/"
+        }
+      ],
+      "name": "home"
+    },
+    {
+      "color": "#51c8ff",
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com"
+        },
+        {
+          "name": "Repl.it",
+          "url": "https://repl.it"
+        },
+        {
+          "name": "CircleCI",
+          "url": "https://circleci.com"
+        },
+        {
+          "name": "Bootstrap",
+          "url": "https://getbootstrap.com"
+        },
+        {
+          "name": "Jekyll",
+          "url": "https://jekyllrb.com"
+        },
+        {
+          "name": "Heroku",
+          "url": "https://heroku.com"
+        },
+        {
+          "name": "Webflow",
+          "url": "https://webflow.com"
+        },
+        {
+          "name": "Canva",
+          "url": "https://canva.com"
+        },
+        {
+          "name": "HEX Codes",
+          "url": "https://htmlcolorcodes.com"
+        }
+      ],
+      "name": "code"
+    },
+    {
+      "color": "#ff5169",
+      "links": [
+        {
+          "name": "BLEND",
+          "url": "https://aisdblend.instructure.com"
+        },
+        {
+          "name": "Portal",
+          "url": "https://portal.austinisd.org"
+        },
+        {
+          "name": "Google Classroom",
+          "url": "https://classroom.google.com"
+        },
+        {
+          "name": "Google Drive",
+          "url": "https://drive.google.com"
+        },
+        {
+          "name": "Google Docs",
+          "url": "https://docs.google.com"
+        },
+        {
+          "name": "Google Sheets",
+          "url": "https://sheets.google.com"
+        },
+        {
+          "name": "Google Slides",
+          "url": "https://slides.google.com"
+        },
+        {
+          "name": "Canva",
+          "url": "https://canva.com"
+        },
+        {
+          "name": "Nitro Type",
+          "url": "https://nitrotype.com"
+        }
+      ],
+      "name": "school"
+    }
+  ],
+  "user": "Reese",
+  "weatherConf": {
+    "location": "78757",
+    "unit": "fah"
+  }
+}
