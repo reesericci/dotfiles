@@ -8,6 +8,10 @@ Make sure to add the recursive flag!
 
 ```git clone https://github.com/reesericci/dotfiles.git --recursive```
 
+Then update the submodules:
+
+```git submodule update --remote```
+
 ## File tree explanation
 
 - .atom - Atom text editor
