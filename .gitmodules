@@ -1,9 +1,12 @@
 [submodule ".doom.d"]
 	path = .doom.d
 	url = https://github.com/reesericci/doom-config
+	branch = master
 [submodule ".config/awesome"]
 	path = .config/awesome
 	url = https://github.com/reesericci/material-awesome
+	branch = master
 [submodule ".config/omf/themes/bobbythefish"]
 	path = .config/omf/themes/bobbythefish
 	url = https://github.com/reesericci/bobbythefish
+	branch = master
