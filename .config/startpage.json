@@ -22,6 +22,18 @@
           "url": "https://lbry.tv"
         },
         {
+          "name": "Amazon",
+          "url": "https://amazon.com"
+        },
+        {
+          "name": "Venmo",
+          "url": "https://venmo.com"
+        },
+        {
+          "name": "ATFCU",
+          "url": "https://atfcu.org"
+        },
+        {
           "name": "Arch Wiki",
           "url": "https://wiki.archlinux.org"
         },
