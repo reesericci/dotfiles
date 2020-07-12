@@ -1,0 +1,21 @@
+#/bin/bash
+
+IP_ADDR="$(hostname -i | tr -d ' ')"
+                        
+while getopts "ln" option; do
+case ${option} in
+l ) #For option l
+echo "View your server at localhost"
+php -S "localhost:80"
+;;
+n ) #For option n 
+echo "View your server at "
+echo $IP_ADDR
+php -S "${IP_ADDR}":80
+;;
+\? ) #For invalid option
+echo "You have to use: [-l] or [-n]"
+;;
+esac
+done
+### EOF ###
