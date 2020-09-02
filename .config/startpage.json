@@ -7,52 +7,54 @@
   "searchEngine": "DuckDuckGo",
   "squares": [
     {
+      "color": "#C0C0C0",
+      "links": [
+        {
+          "name": "Home Assistant",
+          "url": "https://hass.home:8123"
+        },
+        {
+          "name": "FreeNAS",
+          "url": "https://nas.home"
+        },
+        {
+          "name": "Nextcloud",
+          "url": "https://cloud.home"
+        },
+        {
+          "name": "Proxmox",
+          "url": "https://pve.home"
+        },
+        {
+          "name": "UniFi",
+          "url": "https://udm.home"
+        }
+      ],
+      "name": "server"
+    },
+    {
       "color": "#77dd77",
       "links": [
         {
-          "name": "Youtube",
-          "url": "https://youtube.com/"
+          "name": "YT",
+          "url": "https://youtube.com"
         },
         {
-          "name": "Reddit",
-          "url": "https://reddit.com"
+          "name": "Snake",
+          "url": "https://duckduckgo.com/?q=!g+snake"
         },
         {
           "name": "LBRY",
           "url": "https://lbry.tv"
-        },
-        {
-          "name": "Amazon",
-          "url": "https://amazon.com"
-        },
-        {
-          "name": "Venmo",
-          "url": "https://venmo.com"
-        },
-        {
-          "name": "ATFCU",
-          "url": "https://atfcu.org"
-        },
-        {
-          "name": "Arch Wiki",
-          "url": "https://wiki.archlinux.org"
-        },
-        {
-          "name": "Messages",
-          "url": "https://messages.google.com/web/conversations"
-        },
-        {
-          "name": "UniFi",
-          "url": "https://192.168.1.1:8443/"
         }
       ],
-      "name": "home"
+      "name": "idk time"
     },
     {
-      "color": "#51c8ff",
+      "color": "#336bff",
       "links": [
         {
-          "name": "GitHub",
+          "name": "Github",
           "url": "https://github.com"
         },
         {
@@ -60,24 +62,16 @@
           "url": "https://repl.it"
         },
         {
-          "name": "CircleCI",
-          "url": "https://circleci.com"
+          "name": "Heroku",
+          "url": "https://heroku.com"
         },
         {
           "name": "Bootstrap",
           "url": "https://getbootstrap.com"
         },
         {
-          "name": "Jekyll",
-          "url": "https://jekyllrb.com"
-        },
-        {
-          "name": "Heroku",
-          "url": "https://heroku.com"
-        },
-        {
-          "name": "Webflow",
-          "url": "https://webflow.com"
+          "name": "Figma",
+          "url": "https://figma.com"
         },
         {
           "name": "Canva",
@@ -88,10 +82,10 @@
           "url": "https://htmlcolorcodes.com"
         }
       ],
-      "name": "code"
+      "name": "code/design"
     },
     {
-      "color": "#ff5169",
+      "color": "#ff3342",
       "links": [
         {
           "name": "BLEND",
@@ -102,32 +96,20 @@
           "url": "https://portal.austinisd.org"
         },
         {
+          "name": "TEAMS",
+          "url": "https://portal.austinisd.org/portal/applications/access?id=d6249a37-e8bd-4fe2-98ef-37d287d90568"
+        },
+        {
           "name": "Google Classroom",
           "url": "https://classroom.google.com"
         },
         {
           "name": "Google Drive",
-          "url": "https://drive.google.com"
+          "url": "https://portal.austinisd.org/portal/applications/access?id=0a066c94-7fb3-4a34-9d1d-53ba1573d79a"
         },
         {
-          "name": "Google Docs",
-          "url": "https://docs.google.com"
-        },
-        {
-          "name": "Google Sheets",
-          "url": "https://sheets.google.com"
-        },
-        {
-          "name": "Google Slides",
-          "url": "https://slides.google.com"
-        },
-        {
-          "name": "Canva",
-          "url": "https://canva.com"
-        },
-        {
-          "name": "Nitro Type",
-          "url": "https://nitrotype.com"
+          "name": "Gmail",
+          "url": "https://accounts.google.com/signin/continue?sarp=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&plt=AKgnsbttBYB2MJLEdiUnSiKG_GD1ng-DSW2aaJLjtwqWgyDWpodR3x0F9GQXpbtwRd92Ae6igckeAUG_bcgeHeHPcQPVC_Enln-T4GDJf-ZgHvOvw6DYKmkLVMLZCCMBLUl3E_Eg1fgb&PersistentCookie=1&scc=0&service=mail&osid=1"
         }
       ],
       "name": "school"
